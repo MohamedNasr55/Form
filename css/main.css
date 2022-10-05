@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Sart Style Form */
+.containar{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: aqua;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.clear_form{
+    clear: both;
+}
+
+.containar form h1{
+    text-align: center;
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containar form .main_input{
+    width: 49%;
+    padding: 20px;
+}
+.containar form .main_input input{
+    width: 100%;
+}
+
+.containar form .main_input input, textarea{
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.company_phone{
+    width: 44% !important;
+    display: inline-block;
+}
+.containar form .main_input textarea{
+    width: 100%;
+    color: rgb(175, 175, 175);
+}
+.containar form .main_input .button{
+    width: 44%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 60%;
+    background-color: rgb(255, 255, 25);
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* End Style Form */
+
+/* Start Style Main_Text */
+
+.containar form .main_text{
+    width: 48%;
+    float: right;
+    color: #FFF;
+    position: absolute;
+    top: 30%;
+    right: -10%;
+}
+
+.containar form .main_text h3{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containar form .main_text p{
+    margin-bottom: 20px;
+}
+.containar form .main_text p span{
+    display: block;
+    color: rgba(229, 92, 128, 0.97);
+}
+
+/* End Style Main_Text */
